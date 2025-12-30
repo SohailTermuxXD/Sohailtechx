@@ -1,0 +1,3 @@
+module.exports = async function sendMsg(client, jid, text) {
+  await client.sendMessage(jid, { text: text });
+};
