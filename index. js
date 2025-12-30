@@ -1,0 +1,15 @@
+const { allMenu } = require('./allmenu.js');
+const { Client } = require('@adiwajshing/baileys');
+
+// Initialize WhatsApp client
+const client = new Client();
+
+// Example command handler
+client.onMessage(async (message) => {
+  if (message.body === '.allmenu') {
+    await client.sendMessage(message.from, { text: allMenu() });
+  }
+});
+
+// Start the client
+client.connect();
