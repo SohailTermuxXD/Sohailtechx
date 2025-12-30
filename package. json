@@ -1,0 +1,15 @@
+{
+  "name": "dragon-md-bot",
+  "version": "1.0.0",
+  "description": "AllMenu package for Dragon-MD WhatsApp bot by Ali Tech X",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^5.0.0",
+    "node-fetch": "^3.3.0"
+  },
+  "author": "Ali Tech X",
+  "license": "MIT"
+}
